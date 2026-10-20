@@ -21,14 +21,35 @@ public class PathSort {
                 x++;
             }
         }
-        int X2= x*x;
-        int Y2= y*y;
-        return (float) Math.sqrt(X2+Y2);
+        int X2 = x * x;
+        int Y2 = y * y;
+        return (float) Math.sqrt(X2 + Y2);
     }
 
 
-        public static void main (String[]args){
-            String path = "WNEENESENNN";
-            System.out.println(getShortestPath(path));
+    public static void main(String[] args) {
+        // String path = "WNEENESENNN";
+        //System.out.println(getShortestPath(path));
+        String s1 = "Tony";
+        String s2 = "Tony";
+        String s3 = new String("Tony");
+//        if (s1 == s2) {
+//            System.out.println("Strings are equal");
+//        } else {
+//            System.out.println("Strings are not equal");
+//        }
+//        if (s1 == s3) {
+//            System.out.println("Strings are equal");
+//        } else {
+//            System.out.println("Strings are not equal");
+//        }
+        if(s1.equals(s3)){
+            System.out.println("Strings are equal");
         }
-    }
+        else{
+            System.out.println("Strings are not equal");
+        }
+
+        }
+   }
+
